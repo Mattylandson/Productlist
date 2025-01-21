@@ -1,0 +1,226 @@
+body{
+  margin: 50px;
+  background-color: beige;
+  font-family: "Poppins";
+}
+.div1 {
+  background-color: blue;
+  
+}
+.div2 {
+  background-color:brown
+}
+
+.Parent {
+  display: grid;
+  grid-template-columns:270px 270px 270px ;
+  column-gap: 50px;
+  row-gap: 20px;
+
+  
+  
+}
+
+img{
+  width: 300px;
+  height: 300px;
+  margin-right: 20px;
+  border-radius: 10px;
+  
+}
+
+.crt{
+  /* background-color: blueviolet; */
+  position:absolute; 
+  left:1020px; top:70px;
+  padding-right: 200px;
+  padding-left: 10px;
+}
+.item-text{
+  text-align: center;
+  
+}
+
+.item-img{
+  height: 200px;
+  width: 220px;
+  margin-bottom: 50px;
+  margin-left: 50px;
+  
+}
+
+.icon-cart{
+  width: 28px;
+  height: 19px;
+  display: inline-block;
+  padding-top: 10px;
+  /* background-color: blueviolet; */
+  display: grid;
+  margin-right: -40px;
+  
+}
+
+.Cart-prgh {
+  display: inline-block;
+  margin-bottom: 15px;
+  margin-top: -25px;
+  margin-left: 30px;
+  padding-top: 8px;
+  /* background-color: aqua; */
+  text-align: start;
+  display: grid;
+  
+  
+}
+
+button {
+  cursor: pointer;
+  font-family: "Poppins";
+  font-weight: bold;
+  color: rgb(56, 56, 56);
+}
+
+.btn-addCrt{
+  position: absolute;
+  left: 100px;
+  top: 390px;
+  border-radius: 50px;
+  padding-left:30px;
+  padding-right: 30px;
+  border-color: gray;
+  border-style: solid;
+  background-color: white;
+  border-width: 1px;
+  
+
+ 
+}
+
+.Waffle-prgh{
+  margin-top: 35px;
+  margin-bottom: o;
+  color: rgb(165, 127, 134)
+}
+
+.h3-prgh {
+  font-weight: 600;
+  margin-top: -10px;
+}
+
+.Price-tag{
+  color: rgba(161, 36, 36, 0.842);
+  font-weight: 600;
+  margin-top: -5px;
+}
+
+
+
+.btn-aaddCrt{
+  position: absolute;
+  left: 430px;
+  top: 390px;
+  border-radius: 50px;
+  padding-left:30px;
+  padding-right: 30px;
+  border-color: gray;
+  border-style: solid;
+  background-color: white;
+  border-width: 1px;
+
+}
+
+.btn-aaddCrt-mac{
+  position: absolute;
+  left: 750px;
+  top: 390px;
+  border-radius: 50px;
+  padding-left:30px;
+  padding-right: 30px;
+  border-color: gray;
+  border-style: solid;
+  background-color: white;
+  border-width: 1px;
+}
+
+.btn-aaddCrt-tim {
+  position: absolute;
+  left: 100px;
+  top: 875px;
+  border-radius: 50px;
+  padding-left:30px;
+  padding-right: 30px;
+  border-color: gray;
+  border-style: solid;
+  background-color: white;
+  border-width: 1px;
+}
+
+.btn-aaddCrt-bak {
+  position: absolute;
+  left: 430px;
+  top: 875px;
+  border-radius: 50px;
+  padding-left:30px;
+  padding-right: 30px;
+  border-color: gray;
+  border-style: solid;
+  background-color: white;
+  border-width: 1px;
+}
+
+.btn-aaddCrt-pie {
+  position: absolute;
+  left: 750px;
+  top: 875px;
+  border-radius: 50px;
+  padding-left:30px;
+  padding-right: 30px;
+  border-color: gray;
+  border-style: solid;
+  background-color: white;
+  border-width: 1px;
+}
+
+.btn-aaddCrt-cake {
+  position: absolute;
+  left: 100px;
+  top: 1362px;
+  border-radius: 50px;
+  padding-left:30px;
+  padding-right: 30px;
+  border-color: gray;
+  border-style: solid;
+  background-color: white;
+  border-width: 1px;
+}
+
+.btn-aaddCrt-brown {
+  position: absolute;
+  left: 430px;
+  top: 1362px;
+  border-radius: 50px;
+  padding-left:30px;
+  padding-right: 30px;
+  border-color: gray;
+  border-style: solid;
+  background-color: white;
+  border-width: 1px;
+}
+
+.btn-aaddCrt-cotta {
+  position: absolute;
+  left: 750px;
+  top: 1362px;
+  border-radius: 50px;
+  padding-left:30px;
+  padding-right: 30px;
+  border-color: gray;
+  border-style: solid;
+  background-color: white;
+  border-width: 1px;
+}
+
+.Cart-list {
+  font-weight: 700;
+  color: brown;
+}
